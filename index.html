@@ -13,16 +13,16 @@
 	<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
-<body>
-<div class="container">
-	<header>
-		<div id="header_text">
-			<h1>MacARTHUR EQUIPMENT CO., LLC</h1>
-			<h2>over 35 years of excellence in equipment and service</h2>
-		</div>
+<body class="container">
+<div id="header_box" class="l1">
+	<header class="l2">
+		<h1>MacARTHUR EQUIPMENT CO., LLC</h1>
+		<h2>over 35 years of excellence in equipment and service</h2>
 	</header>
-	<nav>
-		<ul id="MenuBar1" class="MenuBarHorizontal">
+</div>
+<div id="nav_box" class="l1">
+	<nav class="l2">
+		<ul class="MenuBarHorizontal">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="sales.html">Sales</a></li>
@@ -40,16 +40,29 @@
 			<li><a href="search.html">Search</a></li>
 		</ul>
 	</nav>
-	<div id="home_content">
-		<p>Whether you’re plowing a 50-foot driveway or a parking lot for 600 vehicles, you need reliable and dependable equipment. At MacArthur Equipment, LLC we offer <strong>snow plows, salt spreaders, and accessories</strong> from all the top names, including<strong> Hiniker, Boss, Western, Sno-Way, and Meyer</strong>.  Our snow removal equipment is designed to handle any job you have with just about any vehicle you have: RTVs, light trucks, heavy-duty trucks or commercial grade construction vehicles.</p>
-		<p>Your plow and spreader are built to last, and will be installed by our professional, knowledgeable service technicians.
-			Our friendly support staff and professionally trained technicians offer you high quality products and expert assistance.</p>
-		<p>Make sure you’re prepared for anything that winter throws at you. Order your snow plow or salt spreader NOW. Call us at <strong>866-688-9303</strong> or <strong>262-544-9303</strong>.  You can count on MacArthur Equipment, LLC to help you plow through winter. </p>
-		<p><br />
+</div>
+<div id="content_box" class="l1">
+	<div id="content" class="l2">
+		<p>
+			Whether you’re plowing a 50-foot driveway or a parking lot for 600 vehicles, you need reliable and dependable equipment.
+			At MacArthur Equipment, LLC we offer <strong>snow plows, salt spreaders, and accessories</strong> from all the top names, including<strong> Hiniker, Boss, Western, Sno-Way, and Meyer</strong>.
+			Our snow removal equipment is designed to handle any job you have with just about any vehicle you have: RTVs, light trucks, heavy-duty trucks or commercial grade construction vehicles.
+		</p>
+		<p>
+			Your plow and spreader are built to last, and will be installed by our professional, knowledgeable service technicians.
+			Our friendly support staff and professionally trained technicians offer you high quality products and expert assistance.
+		</p>
+		<p>
+			Make sure you’re prepared for anything that winter throws at you.
+			Order your snow plow or salt spreader NOW.
+			Call us at <strong>866-688-9303</strong> or <strong>262-544-9303</strong>.
+			You can count on MacArthur Equipment, LLC to help you plow through winter.
 		</p>
 		<h4>Offering high-quality sales and friendly, personalized service for over 35 years. - <a href="http://www.bbb.org/wisconsin/business-reviews/snow-removal-equipment/macarthur-equipment-llc-in-waukesha-wi-44024894">A+ Better Buisness Bureau Rating</a></h4>
 	</div>
-	<footer>
+</div>
+<div id="footer_box" class="l1">
+	<footer class="l2">
 		<div id="footer_left">
 			<p>
 				&bull; 1903 MacArthur Road, Waukesha, WI 53188<br />
@@ -69,11 +82,10 @@
 
 <!--Scripts-->
 <script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+	var MenuBar = new Spry.Widget.MenuBar("MenuBar", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
 
 <script type="text/javascript">
-
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-36353432-1']);
 	_gaq.push(['_trackPageview']);
@@ -86,11 +98,11 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
 </script>
 
 <script type="text/javascript">
-document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-_trxid = "macarthurequipment";
-webTraxs();
+	_trxid = "macarthurequipment";
+	webTraxs();
 </script>
 <noscript><img src="http://www.webtraxs.com/webtraxs.php?id=macarthurequipment&st=img" alt=""></noscript>
 
