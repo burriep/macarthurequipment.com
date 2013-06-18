@@ -1,8 +1,7 @@
-body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: black;
-	background-color: white;
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:700,700italic);
 
+body {
+	font-family: "Noto Sans", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -12,7 +11,7 @@ h2 {
 }
 
 h4 {
-	font-family: "Times New Roman";
+	font-family: "Noto Serif";
 	font-style: italic;
 	text-align: center;
 }
@@ -36,8 +35,12 @@ a:focus img, a:hover img {
 	margin: auto;
 }
 
+#hero_box {
+	background-color: lightslategray;
+}
 #header_box {
-	background-color: gray;
+	background-color: lightgray;
+	padding-top: 2em;
 }
 
 header h1 {
@@ -48,7 +51,7 @@ header h1 {
 }
 
 header h2 {
-	font-family: "Times New Roman";
+	font-family: "Noto Serif";
 	font-size: 20px;
 	color: #666;
 	font-style: italic;
@@ -69,7 +72,6 @@ header h2 {
 	padding-left: 8px;
 	padding-right: 8px;
 }
-
 
 #left_column{
 padding-left: 0px;
