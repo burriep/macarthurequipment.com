@@ -72,6 +72,9 @@ header h2 {
 	padding-left: 8px;
 	padding-right: 8px;
 }
+#content_box {
+	background-color: #E0E0E0;
+}
 
 #left_column{
 padding-left: 0px;
@@ -91,6 +94,19 @@ padding-left: 8px;
 #left_column, #center_column, #right_column  p{
 padding-left: 10px;
 }
+
+.product_box {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	margin: 2em 0em;
+}
+.product_box img {
+	margin-right: 2em;
+	height: 200px;
+}
+
+
 /*footer*/
 #footer_box {
 	background-color: #800000;
