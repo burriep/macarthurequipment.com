@@ -11,6 +11,18 @@
 	<link href="styles/macarthur_equipment_menu.css" rel="stylesheet" type="text/css" />
 	
 	<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+	<!-- FlexSlider Styles -->
+	<link rel="stylesheet" href="styles/flexslider.css" type="text/css">
+	<!-- FlexSlider Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="scripts/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
+
 </head>
 
 <body class="container">
@@ -42,7 +54,23 @@
 	</nav>
 </div>
 <div id="hero_box" class="l1">
-	<h1>put a hero image slider here (that includes the promo stuff)</h1>
+
+<!-- Start FlexSlider -->
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="images/parts.jpg" />
+			</li>
+			<li>
+				<img src="images/flush_fill.jpg" />
+			</li>
+			<li>
+				<img src="images/electrical.jpg" />
+			</li>
+		</ul>
+	</div>
+<!-- End FlexSlider -->
+
 </div>
 <div id="content_box" class="l1">
 	<div id="content" class="l2">
