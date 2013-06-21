@@ -55,6 +55,7 @@ ul.MenuBarHorizontal ul
 ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
 {
 	left: auto;
+	width: auto;
 }
 /* Menu item containers are same fixed width as parent */
 ul.MenuBarHorizontal ul li
@@ -83,7 +84,7 @@ ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
 /* Submenu containers have borders on all sides */
 ul.MenuBarHorizontal ul
 {
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 }
 /* Menu items are a light gray block with padding and no text decoration */
 ul.MenuBarHorizontal a
@@ -93,7 +94,7 @@ ul.MenuBarHorizontal a
 	background-color: #900;
 	color: #FFF;
 	text-decoration: none;
-	padding: 10px 25px; /*43*/
+	padding: .5em 1em;
 	font-weight: bold;
 }
 /* Menu items that have mouse over or focus have a blue background and white text */

@@ -130,3 +130,11 @@ footer p {
 footer a  {
 	color: #999;
 }
+#q {
+	background-color: #bb0909;
+	color: #FFF;
+	border: 0px;
+	padding: .5em;
+	font-size: 16px;
+	font-weight: bold;
+}

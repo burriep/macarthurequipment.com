@@ -8,8 +8,6 @@
 	
 	<link href="styles/macarthur_equipment.css" rel="stylesheet" type="text/css" />
 	<link href="styles/macarthur_equipment_menu.css" rel="stylesheet" type="text/css" />
-	
-	<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body class="container">
@@ -36,19 +34,20 @@
 			</li>
 			<li><a href="shipping.html">Shipping and Returns</a></li>
 			<li><a href="contact.html">Contact</a></li>
-			<li><a href="search.html">Search</a></li>
+			<li><form action="search.html" id="cse-search-box">
+				<input type="search" name="q" id="q" placeholder="Search">
+			</form></li>
 		</ul>
 	</nav>
 </div>
 <div id="content_box" class="l1">
 	<div id="content" class="l2">
-		<h2>Type in the search box to search macarthurequipment.com</h2>
 		<gcse:search></gcse:search>
-		<h4>Offering high-quality sales and friendly, personalized service for over 35 years.  </h4>
 	</div>
 </div>
 <div id="footer_box" class="l1">
 	<footer class="l2">
+		<h4>Offering high-quality sales and friendly, personalized service for over 35 years.</h4>
 		<div id="footer_left">
 			1903 MacArthur Road<br>
 			Waukesha, WI, 53188<br>
@@ -60,13 +59,16 @@
 	</footer>
 </div>
 
-<!--Scripts-->
+
+<!-- Scripts -->
+<!-- MenuBar -->
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 <script type="text/javascript">
 var MenuBar = new Spry.Widget.MenuBar("MenuBar", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
 
+<!-- Google Analytics -->
 <script type="text/javascript">
-
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-36353432-1']);
 	_gaq.push(['_trackPageview']);
@@ -78,6 +80,7 @@ var MenuBar = new Spry.Widget.MenuBar("MenuBar", {imgDown:"SpryAssets/SpryMenuBa
 	})();
 </script>
 
+<!-- WebTrax -->
 <script type="text/javascript">
 document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));
 </script>
@@ -87,13 +90,17 @@ webTraxs();
 </script>
 <noscript><img src="http://www.webtraxs.com/webtraxs.php?id=macarthurequipment&st=img" alt=""></noscript>
 
+<!-- Google CSE -->
 <script>
 	(function() {
-		var cx = '002801513629084125206:0lphjrrd5zi';
-		var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+		var cx = '002801513629084125206:myhfzgd20si';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
 		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
 				'//www.google.com/cse/cse.js?cx=' + cx;
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
 	})();
 </script>
 
