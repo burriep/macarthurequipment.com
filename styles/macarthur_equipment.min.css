@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:700,700italic);body{font-family:"Noto Sans", sans-serif;margin:0;padding:0;}
+h2{font-size:1.25em;}
+h4{font-family:"Noto Serif";font-style:italic;text-align:center;}
+img{border:0px;}
+a:focus img, a:hover img{opacity:.6;}
+.l1{width:100%;display:inline-block;}
+.l2{position:relative;max-width:960px;margin:auto;}
+#hero_box{background-color:lightslategray;}
+#header_box{background-color:lightgray;padding-top:2em;}
+header h1{font-family:Impact;color:#A80000;font-size:2.5em;margin:0em;}
+header h2{font-family:"Noto Serif";font-size:20px;color:#666;font-style:italic;margin-top:0px;}
+#nav_box{background-color:#900;text-align:center;}
+#menu{background-color:#900;text-align:center;}
+#content{padding-left:8px;padding-right:8px;}
+#content_box{background-color:#E0E0E0;}
+#left_column{padding-left:0px;}
+#right_column h2{padding-left:8px;}
+#center_column, #right_column{margin-left:2px;}
+#left_column, #center_column, #right_column{width:267px;float:left;padding-left:5px;text-align:justify;}
+#left_column, #center_column, #right_column p{padding-left:10px;}
+.product_box{display:inline-block;width:100%;background-color:white;margin:2em 0em;}
+.product_box img{margin-right:2em;height:200px;}
+#footer_box{background-color:#800000;color:white;text-align:left;padding-top:1px;padding-bottom:1px;width:100%;}
+#footer_left{padding-left:5%;}
+#footer_left, #footer_right{width:47%;float:left;}
+footer p{color:#FFF;}
+footer a{color:#999;}
+#q{background-color:#bb0909;color:#FFF;border:0px;padding:.5em;font-size:16px;font-weight:bold;}
