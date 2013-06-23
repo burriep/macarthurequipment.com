@@ -2,7 +2,8 @@ TODO
 
 resize images for all product pages (promo images) -- export either at 200px tall or larger
 	possibly make an expandable layout for promo item
-	create pictures for flexSlider on index.html
+	create slides for flexSlider on index.html
+		have background image, text, links, and images
 
 add "tel:262.123.1234" link to all telephone numbers (for on mobile)
 
