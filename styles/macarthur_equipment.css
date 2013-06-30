@@ -76,7 +76,7 @@ header h2 {
 	background-color: #E0E0E0;
 }
 
-#services_intro {
+#services_intro, #sales_intro {
 	display: inline-block;
 	width: 100%;
 	background-color: white;
