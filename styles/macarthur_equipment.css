@@ -76,12 +76,12 @@ header h2 {
 	background-color: #E0E0E0;
 }
 
-#services_intro, #sales_intro {
+.block_item {
 	display: inline-block;
 	width: 100%;
 	background-color: white;
-	padding-left: 1em;
-	margin: 2em 0em;
+	padding: 0em 1em;
+	margin: 0em 0em 2em 0em;
 }
 
 .col3 {
