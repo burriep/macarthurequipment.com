@@ -71,7 +71,7 @@
 	<div class="flexslider">
 		<ul class="slides">
 			<li>
-				<img src="images/parts.jpg" />
+				<img src="images/flexslider/parts_slide.jpg" />
 			</li>
 			<li>
 				<img src="images/flush_fill.jpg" />
@@ -80,6 +80,7 @@
 				<img src="images/electrical.jpg" />
 			</li>
 		</ul>
+		<div class="slide_nav"></div>
 	</div>
 <!-- End FlexSlider -->
 
@@ -122,7 +123,14 @@
 <script src="scripts/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
 	$(window).load(function() {
-		$('.flexslider').flexslider();
+		$('.flexslider').flexslider({
+			animation: "slide",
+			touch: true,
+			useCSS: true,
+			pauseOnHover: true,
+			controlNav: true,
+			controlsContainer: ".slide_nav"
+		});
 	});
 </script>
 
