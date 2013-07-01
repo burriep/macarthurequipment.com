@@ -118,6 +118,10 @@ header h2 {
 .link:hover, .link:focus, .link a:hover,  .link a:focus {
     background-color: hsl(0, 0%, 90%);
 }
+.search a[href^=http] {
+	background-image: none;
+	padding-right: 0px;
+}
 
 a[href^=http] {
     background-image:url(../images/external_link.png);
