@@ -37,6 +37,12 @@ a:focus img, a:hover img {
 
 #hero_box {
 	background-color: lightslategray;
+	background-image: url(../images/dark_wall.png);
+
+}
+#hero_box .flexslider {
+	max-width: 960px;
+	margin: auto;
 }
 #header_box {
 	background-color: lightgray;
