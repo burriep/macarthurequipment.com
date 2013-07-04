@@ -12,3 +12,7 @@ TODO
 	-possibly make an expandable layout for promo item
 
 +custom 404 page
+
++@media = print
+	-do not show the google survey (display: none)
+	-do not show the slider on homepage (display: none)
