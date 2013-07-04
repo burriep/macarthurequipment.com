@@ -3,15 +3,26 @@ TODO
 +all
 	-specify dimensions for all images
 
-+product (promo) pages
-	-possibly make an expandable layout for promo item
-
 +custom 404 page
 	-contact Alentus to get the page enabled (contact Marty from ISPros)
+
++css
+	-minify
+	-run Page Speed on all pages
+	-update as needed
+
+	-extrapolate css into 2+ different files
+		-one being for the layout - theme
+		-one being for the specific #id 's
+		(this is so I can easily apply this same layout to burrie.com)
 
 +@media = print
 	-do not show the google survey (display: none)
 	-do not show the slider on homepage (display: none)
 
-+minify css and run Page Speed on all pages -- update as needed
 +push to web server
+
+
+
++product (promo) pages
+	-possibly make an expandable layout for promo item
