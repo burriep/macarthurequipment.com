@@ -196,7 +196,6 @@ footer a  {
 
 #parts_slide {
 	background-image: url(../images/flexslider/parts_slide.jpg);
-	height: 400px;
 }
 .flexslider h1{
 	color: white;
@@ -204,4 +203,17 @@ footer a  {
 	text-align: right;
 	padding-right: 1em;
 	margin-top: 300px;
+}
+#splitters {
+	background-image: url(../images/flexslider/wood.jpg);
+}
+#splitters h1 {
+	margin-top: 182px;
+}
+.cc {
+	text-align: right;
+	color: white;
+}
+.slides li {
+	height: 400px;
 }
