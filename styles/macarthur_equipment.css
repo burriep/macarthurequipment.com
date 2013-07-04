@@ -217,6 +217,12 @@ footer a  {
 .slides li {
 	height: 400px;
 }
+.slides a {
+	text-decoration: none;
+}
 #plows {
 	background-image: url(../images/flexslider/plow.jpg);
+}
+#splitters a:focus img, #splitters a:hover img {
+    opacity: 1;
 }
