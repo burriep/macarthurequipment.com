@@ -51,7 +51,7 @@ a:focus img, a:hover img {
 
 header h1 {
 	font-family: Impact;
-	color: #A80000;
+	color: #900;
 	font-size: 2.5em;
 	margin: 0em;
 }
@@ -164,7 +164,7 @@ a[href^=http] {
 
 /*footer*/
 #footer_box {
-	background-color: #800000;
+	background-color: #900;
 	color: white;
 	text-align: left;
 	padding-top: 1px;
@@ -186,7 +186,7 @@ footer a  {
 	color: #999;
 }
 #q {
-	background-color: #bb0909;
+	background-color: #BB0909;
 	color: #FFF;
 	border: 0px;
 	padding: .5em;

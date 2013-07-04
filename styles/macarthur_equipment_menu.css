@@ -100,7 +100,7 @@ ul.MenuBarHorizontal a
 /* Menu items that have mouse over or focus have a blue background and white text */
 ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 {
-	background-color: #A80000;
+	background-color: #BB0909;
 	color: #FFF;
 }
 /* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
