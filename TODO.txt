@@ -1,18 +1,17 @@
 TODO
 
 +all
-	-footer: make more functional
 	-specify dimensions for all images
 
-+index.html
-	-flexSlider: create slides with background image, text, links, and images
-
 +product (promo) pages
-	-resize images: export either at 200px tall or larger
 	-possibly make an expandable layout for promo item
 
 +custom 404 page
+	-contact Alentus to get the page enabled (contact Marty from ISPros)
 
 +@media = print
 	-do not show the google survey (display: none)
 	-do not show the slider on homepage (display: none)
+
++minify css and run Page Speed on all pages -- update as needed
++push to web server
