@@ -2,6 +2,7 @@ TODO
 
 +all
 	-specify dimensions for all images
+	-make mobile layout (for small screens)
 
 +custom 404 page
 	-contact Alentus to get the page enabled (contact Marty from ISPros)
@@ -10,11 +11,6 @@ TODO
 	-minify
 	-run Page Speed on all pages
 	-update as needed
-
-	-extrapolate css into 2+ different files
-		-one being for the layout - theme
-		-one being for the specific #id 's
-		(this is so I can easily apply this same layout to burrie.com)
 
 +@media = print
 	-do not show the google survey (display: none)
