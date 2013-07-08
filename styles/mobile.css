@@ -1,9 +1,7 @@
-ul.MenuBarHorizontal
-{
+ul.MenuBarHorizontal {
 	display:block;
 }
-ul.MenuBarHorizontal li
-{
+ul.MenuBarHorizontal li {
 	display: inline-block;
 	width: 50%;
 	float: left;
@@ -13,4 +11,7 @@ ul.MenuBarHorizontal ul {
 }
 nav.l2 ul.MenuBarHorizontal a {
 	background-image: none;
+}
+li.q, li.q #q {
+    max-width: none;
 }
