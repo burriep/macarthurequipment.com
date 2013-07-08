@@ -1,0 +1,16 @@
+ul.MenuBarHorizontal
+{
+	display:block;
+}
+ul.MenuBarHorizontal li
+{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+ul.MenuBarHorizontal ul {
+	display: none;
+}
+nav.l2 ul.MenuBarHorizontal a {
+	background-image: none;
+}
