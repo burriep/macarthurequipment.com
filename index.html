@@ -18,19 +18,7 @@
 	<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 
 	<!-- Google Analytics Script-->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-		_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-		_gaq.push(['_setAccount', 'UA-36353432-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
+	<script type="text/javascript">var _gaq=_gaq||[],pluginUrl="//www.google-analytics.com/plugins/ga/inpage_linkid.js";_gaq.push(["_require","inpage_linkid",pluginUrl]);_gaq.push(["_setAccount","UA-36353432-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
 </head>
 
 <body class="container">
@@ -124,38 +112,19 @@
 <!--Scripts-->
 <!-- FlexSlider -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="scripts/jquery.flexslider.js"></script>
-<script type="text/javascript" charset="utf-8">
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			animation: "slide",
-			touch: true,
-			useCSS: true,
-			pauseOnHover: true,
-			controlNav: true,
-			controlsContainer: ".slide_nav"
-		});
-	});
-</script>
+<script src="scripts/jquery.flexslider.min.js"></script>
+<script type="text/javascript" charset="utf-8">$(window).load(function(){$(".flexslider").flexslider({animation:"slide",touch:!0,useCSS:!0,pauseOnHover:!0,pauseOnAction:!0,controlsContainer:".slide_nav"})});</script>
 
 <!-- MenuBar -->
 <script src="SpryAssets/SpryMenuBar.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-	var MenuBar = new Spry.Widget.MenuBar("MenuBar");
-	// , {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"}
-</script>
+<script type="text/javascript">var MenuBar = new Spry.Widget.MenuBar("MenuBar");</script>
 
 <!-- Website Survey -->
 <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=ljz56qxiq5mva"></script>
 
 <!-- WebTraxs -->
-<script type="text/javascript">
-	document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-	_trxid = "macarthurequipment";
-	webTraxs();
-</script>
+<script type="text/javascript">document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">_trxid = "macarthurequipment"; webTraxs();</script>
 <noscript><img src="http://www.webtraxs.com/webtraxs.php?id=macarthurequipment&st=img" alt=""></noscript>
 
 </body>
