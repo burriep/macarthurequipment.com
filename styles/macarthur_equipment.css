@@ -69,13 +69,39 @@ header h2 {
 }
 /*search box inside of nav*/
 #q {
-	background-color: #BB0909;
+	background-color: #900;
 	color: #FFF;
 	border: 0px;
 	padding: .5em;
 	font-size: 16px;
 	font-weight: bold;
 	width: 100%;
+}
+#q:focus {
+    background-color: #BB0909;
+    outline: none;
+}
+/* for styling the placeholder text*/
+input::-webkit-input-placeholder{
+    color: white;
+    text-align: center;
+}
+input:-moz-placeholder {
+    color: white; /* Mozilla Firefox 4 to 18 */
+    text-align: center;
+}
+input[placeholder], [placeholder], *[placeholder]
+{
+    color: white;
+    text-align: center;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    text-align: center;
+}
+input:-ms-input-placeholder { 
+    color: white; /* Internet Explorer 10+ */
+    text-align: center;
 }
 
 
