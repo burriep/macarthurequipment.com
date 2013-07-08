@@ -11,6 +11,7 @@ TODO
 	-minify
 	-run Page Speed on all pages
 	-update as needed
+	-specify 'box-sizing: border-box;' where I have both padding and 100% width (see mozilla reference)
 
 +@media = print
 	-do not show the google survey (display: none)
