@@ -1,25 +1,18 @@
 TODO
 
 +all
-	-specify dimensions for all images
 	-make mobile layout (for small screens)
-
-+custom 404 page
-	-contact Alentus to get the page enabled (contact Marty from ISPros)
-
-+css
-	-minify
-	-run Page Speed on all pages
-	-update as needed
-	-specify 'box-sizing: border-box;' where I have both padding and 100% width (see mozilla reference)
+		-2 and 3 column layouts need to be 1 column stacked on mobile
 
 +@media = print
 	-do not show the google survey (display: none)
 	-do not show the slider on homepage (display: none)
 
++custom 404 page
+	-contact Alentus to get the page enabled (contact Marty from ISPros)
+
++css
+	-minify before push
+	-run Page Speed on all pages
+
 +push to web server
-
-
-
-+product (promo) pages
-	-possibly make an expandable layout for promo item
