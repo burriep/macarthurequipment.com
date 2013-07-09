@@ -1,7 +1,7 @@
 TODO
 
-+specials pages
-	-make mobile layout work better with longer descriptions
++Services
+	-utilize larger images when image takes up 100% of the width
 
 +@media = print
 	-do not show the google survey (display: none)
