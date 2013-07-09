@@ -15,3 +15,39 @@ nav.l2 ul.MenuBarHorizontal a {
 li.q, li.q #q {
     max-width: none;
 }
+
+@media screen and (max-width: 600px) {
+    .col3 {
+        display: block;
+    }
+    .col {
+        margin: auto;
+    }
+    ul.MenuBarHorizontal li {
+        width: 100%; /* Nav single column */
+    }
+    header h1 {
+        font-size:2em;
+    }
+    header h2 {
+        font-size:1em;
+    }
+    #header_box {
+        padding-top: .5em;
+    }
+    .col p {
+        padding-bottom: .5em;
+    }
+    .specials img {
+        width: 100%;
+    }
+    .specials .two_col img {
+        width: 49%;
+    }
+    #footer_left, #footer_right {
+        padding:0;
+        margin:0;
+        width: 100%;
+        text-align:center;
+    }
+}
