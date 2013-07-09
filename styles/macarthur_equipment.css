@@ -238,6 +238,14 @@ input:-ms-input-placeholder {
 	height: 200px;
 }
 
+.specials img {
+    width: 100%;
+    max-width: 829px;
+}
+.specials .two_col img {
+    width: 49%;
+    max-width:412px;
+}
 
 /*footer*/
 #footer_box {
