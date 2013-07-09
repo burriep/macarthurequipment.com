@@ -8,7 +8,7 @@ TODO
 	-do not show the slider on homepage (display: none)
 
 +custom 404 page
-	-contact Alentus to get the page enabled (contact Marty from ISPros)
+	-contact Marty to get the page enabled
 
 +css
 	-minify before push
