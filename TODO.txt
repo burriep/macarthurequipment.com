@@ -1,8 +1,7 @@
 TODO
 
-+all
-	-make mobile layout (for small screens)
-		-2 and 3 column layouts need to be 1 column stacked on mobile
++specials pages
+	-make mobile layout work better with longer descriptions
 
 +@media = print
 	-do not show the google survey (display: none)
