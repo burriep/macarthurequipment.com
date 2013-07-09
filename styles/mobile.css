@@ -50,4 +50,9 @@ li.q, li.q #q {
         width: 100%;
         text-align:center;
     }
+    .sales .col {
+    	width: 48%;
+        margin: 1%;
+    	float: left;
+    }
 }
