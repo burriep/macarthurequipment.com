@@ -247,12 +247,11 @@ input:-ms-input-placeholder {
 	padding: 1em 0em;
 	width: 100%;
 }
-#footer_left{
-	padding-left: 5%;
-}
+
 #footer_left, #footer_right{
-	width: 47%;
+	width: 50%;
 	float: left;
+	text-align: center;
 }
 footer p {
 	color: #FFF;
