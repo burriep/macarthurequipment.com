@@ -5,7 +5,6 @@ TODO
 
 +@media = print
 	-do not show the google survey (display: none)
-	-do not show the slider on homepage (display: none)
 
 +custom 404 page
 	-contact Marty to get the page enabled
@@ -13,5 +12,8 @@ TODO
 +css
 	-minify before push
 	-run Page Speed on all pages
+
++images
+	-export logos in 8-bit png or convert to a *.svg
 
 +push to web server

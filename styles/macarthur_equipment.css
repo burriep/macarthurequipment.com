@@ -272,3 +272,8 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 		padding: .5em;
 	}
 }
+@media print {
+	#hero_box {
+		display: none;
+	}
+}
