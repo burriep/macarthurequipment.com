@@ -19,6 +19,12 @@ div {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+a {
+	color: #999;
+}
+a:hover {
+	color: #666;
+}
 /*External link image*/
 a[href^=http] {
 	background: url(../images/external_link.png) no-repeat right center;
@@ -38,7 +44,6 @@ a:focus img, a:hover img {
 	width: 100%;
 	display: inline-block;
 }
-
 .l2 {
 	position: relative;
 	max-width: 960px;
@@ -57,7 +62,6 @@ header h1 {
 	font-size: 2.5em;
 	margin: 0em;
 }
-
 header h2 {
 	font-family: "Noto Serif";
 	font-size: 20px;
@@ -81,40 +85,38 @@ header h2 {
 	font-size: 16px;
 	font-weight: bold;
 	width: 100%;
-    margin: 0px;
-    text-align: left;
-    max-width: 10em;
+	margin: 0px;
+	text-align: left;
+	max-width: 10em;
 }
 #q:focus {
-    background-color: #BB0909;
-    outline: none;
-    max-width: 20em;
+	background-color: #BB0909;
+	outline: none;
+	max-width: 20em;
 }
 ul.MenuBarHorizontal li.q {
-    /*max-width: 10em;*/
-    -webkit-box-flex: 1.0 !important;
+	-webkit-box-flex: 1.0;
 }
 /* for styling the placeholder text*/
-input::-webkit-input-placeholder{
-    color: white;
-    text-align: center;
+input::-webkit-input-placeholder {
+	color: white;
+	text-align: center;
 }
-input:-moz-placeholder {
-    color: white; /* Mozilla Firefox 4 to 18 */
-    text-align: center;
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: white;
+	text-align: center;
 }
-input[placeholder], [placeholder], *[placeholder]
-{
-    color: white;
-    text-align: center;
+input[placeholder], [placeholder], *[placeholder] {
+	color: white;
+	text-align: center;
 }
 input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 }
-input:-ms-input-placeholder { 
-    color: white; /* Internet Explorer 10+ */
-    text-align: center;
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: white;
+	text-align: center;
 }
 
 
@@ -127,7 +129,7 @@ input:-ms-input-placeholder {
 	margin: auto;
 }
 /*Flexslider overrides*/
-.flexslider h1{
+.flexslider h1 {
 	color: white;
 	background-color: #900;
 	text-align: right;
@@ -210,10 +212,10 @@ input:-ms-input-placeholder {
 	padding: .5em;
 }
 .link:hover, .link:focus, .link a:hover,  .link a:focus {
-		background-color: hsl(0, 0%, 90%);
-		text-decoration: underline;
+	background-color: hsl(0, 0%, 90%);
+	text-decoration: underline;
 }
-.link a{
+.link a {
 	color: black;
 	text-decoration: none;
 }
@@ -239,12 +241,12 @@ input:-ms-input-placeholder {
 }
 
 .specials img {
-    width: 100%;
-    max-width: 829px;
+	width: 100%;
+	max-width: 829px;
 }
 .specials .two_col img {
-    width: 49%;
-    max-width:412px;
+	width: 49%;
+	max-width:412px;
 }
 
 /*footer*/
@@ -256,17 +258,14 @@ input:-ms-input-placeholder {
 	width: 100%;
 }
 
-#footer_left, #footer_right{
+#footer_left, #footer_right {
 	width: 50%;
 	float: left;
 	text-align: center;
 }
-footer p {
-	color: #FFF;
-}
-footer a  {
-	color: #999;
-}
+
+
+/* Media Sensative css rules */
 
 @media screen and (max-width: 1000px) {
 	#content {
