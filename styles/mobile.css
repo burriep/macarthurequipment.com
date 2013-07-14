@@ -41,14 +41,15 @@ li.q, li.q #q {
 	ul.MenuBarHorizontal li {
 		width: 100%; /* Nav single column */
 	}
-	.col3 {
-		display: block;
-	}
-	.col {
-		margin: auto;
-	}
 	.col p {
 		padding-bottom: .5em;
+	}
+	.container .col {
+		width: 100%;
+		max-width: 304px;
+		margin: auto;
+		float: none;
+		display: block;
 	}
 	.sales .col {
 		width: 48%;

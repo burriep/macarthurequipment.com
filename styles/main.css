@@ -179,20 +179,11 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 /*Flexible 3 column layout*/
-/*The outer container*/
-.col3 {
-	display:-moz-box; /* Firefox */
-	display:-webkit-box; /* Safari and Chrome */
-	display:-ms-flexbox; /* Internet Explorer 10 */
-	display:box;
-}
-/*The column*/
 .col {
-	-moz-box-flex:1.0; /* Firefox */
-	-webkit-box-flex:1.0; /* Safari and Chrome */
-	-ms-flex:1.0; /* Internet Explorer 10 */
-	box-flex:1.0;
-	margin: .5em;
+	display: inline-block;
+	width: 32%;
+	margin: .5%;
+	float: left;
 	text-align: justify;
 	background-color: white;
 }
