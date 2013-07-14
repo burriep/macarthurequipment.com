@@ -3,9 +3,6 @@ TODO
 +Services
 	-utilize larger images when image takes up 100% of the width
 
-+@media = print
-	-do not show the google survey (display: none)
-
 +custom 404 page
 	-contact Marty to get the page enabled
 

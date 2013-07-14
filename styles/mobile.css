@@ -24,7 +24,9 @@ li.q, li.q #q {
 .product_box p {
 	padding:.5em;
 }
-
+#contain-402 {
+	display: none;
+}
 @media screen and (max-width: 600px) {
 	#header_box {
 		padding-top: .5em;

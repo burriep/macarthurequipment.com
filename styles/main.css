@@ -263,4 +263,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 	#hero_box {
 		display: none;
 	}
+	#contain-402 {
+		display: none;
+	}
 }
