@@ -227,11 +227,11 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 	height: 200px;
 }
 
-.specials img {
+.specials #content img {
 	width: 100%;
 	max-width: 829px;
 }
-.specials .two_col img {
+.specials #content .two_col img {
 	width: 49%;
 	max-width:412px;
 }

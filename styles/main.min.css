@@ -44,8 +44,8 @@ input:-ms-input-placeholder{color:white;text-align:center;}
 #empty:hover{color:hsl(0, 0%, 95%);background-color:hsl(0, 0%, 95%);}
 .product_box{display:inline-block;width:100%;background-color:white;margin:2em 0em;}
 .product_box img{margin-right:2em;height:200px;}
-.specials img{width:100%;max-width:829px;}
-.specials .two_col img{width:49%;max-width:412px;}
+.specials #content img{width:100%;max-width:829px;}
+.specials #content .two_col img{width:49%;max-width:412px;}
 #footer_box{background-color:#900;color:white;text-align:left;padding:1em 0em;width:100%;}
 #footer_left, #footer_right{width:50%;float:left;text-align:center;}
 @media screen and (max-width:1000px){#content{padding:.5em;}
