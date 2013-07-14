@@ -50,5 +50,5 @@ input:-ms-input-placeholder{color:white;text-align:center;}
 #footer_left, #footer_right{width:50%;float:left;text-align:center;}
 @media screen and (max-width:1000px){#content{padding:.5em;}
 }
-@media print{#hero_box{display:none;}
+@media print{#hero_box{display:none;}#contain-402{display: none;}
 }

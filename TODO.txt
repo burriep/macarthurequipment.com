@@ -1,16 +1,7 @@
 TODO
 
-+Services
-	-utilize larger images when image takes up 100% of the width
-
 +custom 404 page
 	-contact Marty to get the page enabled
 
-+css
-	-minify before push
-	-run Page Speed on all pages
-
 +images
 	-export logos in 8-bit png or convert to a *.svg
-
-+push to web server
