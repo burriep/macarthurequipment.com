@@ -87,15 +87,11 @@ header h2 {
 	width: 100%;
 	margin: 0px;
 	text-align: left;
-	max-width: 10em;
+	max-width: 20em;
 }
 #q:focus {
 	background-color: #BB0909;
 	outline: none;
-	max-width: 20em;
-}
-ul.MenuBarHorizontal li.q {
-	-webkit-box-flex: 1.0;
 }
 /* for styling the placeholder text*/
 input::-webkit-input-placeholder {
