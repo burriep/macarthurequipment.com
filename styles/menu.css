@@ -18,7 +18,7 @@ ul.MenuBarHorizontal
 	list-style-type: none;
 	font-size: 100%;
 	cursor: default;
-	width: auto;
+	width: 100%;
 
 	display:-moz-box; /* Firefox */
 	display:-webkit-box; /* Safari and Chrome */
