@@ -198,7 +198,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 	border-top: 1px solid hsl(0, 0%, 85%);
 	padding: .5em;
 }
-.link:hover, .link:focus, .link a:hover,  .link a:focus {
+.link:hover, .link:focus, .link a:hover,  .link a:focus {
 	background-color: hsl(0, 0%, 90%);
 	text-decoration: underline;
 }
