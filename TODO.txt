@@ -10,3 +10,6 @@ TODO
 	-"move the character set to the HTTP Content-Type response header"
 
 +get minification to work on main.css
+
++IE
+	-Ditch support for IE flex box and just have static nav for all versions of IE

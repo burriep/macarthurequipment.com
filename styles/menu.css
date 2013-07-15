@@ -22,7 +22,6 @@ ul.MenuBarHorizontal
 
 	display:-moz-box; /* Firefox */
 	display:-webkit-box; /* Safari and Chrome */
-	display:-ms-flexbox; /* Internet Explorer 10 */
 	display:box;
 }
 /* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
@@ -45,9 +44,7 @@ ul.MenuBarHorizontal li
 
 	-moz-box-flex: 1.0; /* Firefox */
 	-webkit-box-flex: 1.0; /* Safari and Chrome */
-	-ms-flex: 1.0; /* Internet Explorer 10 */
 	box-flex: 1.0;
-	-ms-flex-preferred-size: auto;
 }
 /* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
 ul.MenuBarHorizontal ul
