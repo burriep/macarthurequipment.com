@@ -7,3 +7,5 @@ TODO
 	-export logos in 8-bit png or convert to a *.svg
 
 + Reorganize the sales and the specials pages to have a better flow
+
+Saturdays open 8-noon
