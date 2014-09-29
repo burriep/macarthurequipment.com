@@ -119,6 +119,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 /*Image slider*/
 #hero_box {
 	background-image: url(../images/dark_wall.png);
+	/* Background pattern from subtlepatterns.com */
 }
 #hero_box .flexslider {
 	max-width: 960px;
